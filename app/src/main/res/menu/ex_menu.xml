@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/exmenu">
+    <item android:id="@+id/ongoingm" android:title="Ongoing Exchanges" android:icon="@drawable/settings"/>
+    <item android:id="@+id/youritemsm" android:title="Your Items" android:icon="@drawable/settings"/>
+    <item android:id="@+id/exchangem" android:title="Exchange" android:icon="@drawable/settings"/>
+</menu>

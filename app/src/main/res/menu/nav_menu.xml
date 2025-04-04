@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homepage" android:title="Homepage" android:icon="@drawable/homeicon"/>
+    <item android:id="@+id/exchange" android:title="Exchange" android:icon="@drawable/exchange"/>
+    <item android:id="@+id/settings" android:title="Settings" android:icon="@drawable/settings"/>
+    <item android:id="@+id/chat" android:title="Chat" android:icon="@drawable/chat"/>
+</menu>
