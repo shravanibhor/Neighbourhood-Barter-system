@@ -1,8 +1,132 @@
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="20dp" android:background="@android:color/white">
-    <!--  Popup text in the center  -->
-    <TextView android:id="@+id/popup_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:text="New Item" android:textSize="22sp" android:textStyle="bold" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
-    <Button android:id="@+id/camera_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_marginStart="144dp" android:layout_marginTop="20dp" android:text="Open Camera" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/captured_image"/>
-    <ImageView android:id="@+id/captured_image" android:layout_width="200dp" android:layout_height="200dp" android:layout_gravity="center" android:layout_marginStart="105dp" android:layout_marginTop="32dp" android:layout_marginEnd="86dp" android:background="#5A9591" android:contentDescription="l8r" android:scaleType="centerCrop" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/popup_text"/>
-    <Button android:id="@+id/save_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="150dp" android:layout_marginBottom="28dp" android:text="Save" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"/>
-    <Button android:id="@+id/close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="31dp" android:layout_marginBottom="29dp" android:text="Close" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"/>
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="600dp"
+    android:background="@android:color/white"
+    android:padding="0dp">
+
+    <!-- Popup text in the center -->
+
+    <TextView
+        android:id="@+id/popup_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="New Item"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/camera_button"
+        android:layout_width="128dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="Click Image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/captured_image" />
+
+    <ImageView
+        android:id="@+id/captured_image"
+        android:layout_width="176dp"
+        android:layout_height="175dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="86dp"
+        android:background="#5A9591"
+        android:contentDescription="l8r"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/popup_text" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="89dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginBottom="8dp"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/gallery"
+        android:layout_width="171dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="276dp"
+        android:text="Open From Gallery"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/captured_image" />
+
+    <Button
+        android:id="@+id/close_button"
+        android:layout_width="90dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Close"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="202dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="2dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintStart_toEndOf="@+id/categorynew"
+        app:layout_constraintTop_toBottomOf="@+id/gallery" />
+
+    <TextView
+        android:id="@+id/categorynew"
+        android:layout_width="91dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="Category"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/camera_button" />
+
+    <EditText
+        android:id="@+id/pname"
+        android:layout_width="206dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Product Name"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categorynew" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="206dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="4dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Product Description"
+        android:inputType="textMultiLine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pname" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,4 +6,7 @@
     </style>
 
     <style name="Theme.NeighbourhoodBarterSystem" parent="Base.Theme.NeighbourhoodBarterSystem" />
+    <style name="Theme.MyApp" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- ... other attributes ... -->
+    </style>
 </resources>

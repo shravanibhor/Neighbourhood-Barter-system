@@ -36,6 +36,8 @@ import java.util.List;
 
 public class YourItemsActivity extends AppCompatActivity {
     private static final int REQUEST_IMAGE_CAPTURE = 1;
+    private ImageView capturedImageView; // Declare globally
+    private PopupWindow popupWindow;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.youritems); // Set the layout resource
@@ -91,23 +93,40 @@ public class YourItemsActivity extends AppCompatActivity {
         }
     }
     private void showPopupWindow(View view) {
-        // Inflate the popup_layout.xml
         LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
         View popupView = inflater.inflate(R.layout.createnew, null);
+
+        capturedImageView = popupView.findViewById(R.id.captured_image); // Store reference
         Button cameraButton = popupView.findViewById(R.id.camera_button);
-        cameraButton.setOnClickListener(v -> checkPermissionsAndOpenCamera());
-        // Create the PopupWindow
-        int width = LinearLayout.LayoutParams.WRAP_CONTENT;
-        int height = LinearLayout.LayoutParams.WRAP_CONTENT;
-        boolean focusable = true; // Taps outside will dismiss the popup
-        PopupWindow popupWindow = new PopupWindow(popupView, width, height, focusable);
-
-        // Show the popup window at the center of the screen
-        popupWindow.showAtLocation(view, Gravity.CENTER, 0, 0);
-
-        // Close the popup when the close button is clicked
         Button closeButton = popupView.findViewById(R.id.close_button);
+
+        cameraButton.setOnClickListener(v -> checkPermissionsAndOpenCamera());
         closeButton.setOnClickListener(v -> popupWindow.dismiss());
+
+
+
+        popupWindow = new PopupWindow(popupView,
+                LinearLayout.LayoutParams.WRAP_CONTENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT, true);
+        popupWindow.showAtLocation(view, Gravity.CENTER, 0, 0);closeButton.setOnClickListener(v -> popupWindow.dismiss());
+    }
+
+
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
+            Bundle extras = data.getExtras();
+            if (extras != null) {
+                Bitmap capturedBitmap = (Bitmap) extras.get("data");
+
+                // Update ImageView inside the popup automatically
+                if (capturedImageView != null && popupWindow != null && popupWindow.isShowing()) {
+                    capturedImageView.setImageBitmap(capturedBitmap);
+                }
+            }
+        }
     }
 
     private void showFilterPopup(View view) {
@@ -177,10 +196,9 @@ public class YourItemsActivity extends AppCompatActivity {
             openCamera();  // Open the camera if permission is granted
         } else {
             Toast.makeText(this, "Camera permission denied", Toast.LENGTH_SHORT).show();
-        }
-    }
-
+   }
 }
 
 
 
+}

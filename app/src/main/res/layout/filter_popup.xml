@@ -3,7 +3,7 @@
     android:layout_height="wrap_content"
     android:background="#009688"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="25dp">
 
     <!--  Price Filter  -->
     <TextView
@@ -22,15 +22,16 @@
         android:text="Location Range:"
         android:textColor="#F0E5E5" />
 
+    <!--  Category Filter  -->
     <EditText
         android:id="@+id/price_input"
-        android:layout_width="match_parent"
+        android:layout_width="179dp"
         android:layout_height="wrap_content"
         android:hint="Enter max distance"
         android:inputType="number"
         android:textColor="#F0E5E5"
         android:textColorHint="#C1B9B9" />
-    <!--  Category Filter  -->
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
