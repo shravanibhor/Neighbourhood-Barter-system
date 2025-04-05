@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#009688"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <!--  Price Filter  -->
+    <TextView
+        android:id="@+id/popup_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="Adjust Filters"
+        android:textColor="#F8F3F3"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location Range:"
+        android:textColor="#F0E5E5" />
+
+    <!--  Category Filter  -->
+    <EditText
+        android:id="@+id/price_input"
+        android:layout_width="179dp"
+        android:layout_height="62dp"
+        android:hint="Enter max distance"
+        android:inputType="number"
+        android:textColor="#F0E5E5"
+        android:textColorHint="#C1B9B9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category:"
+        android:textColor="#F0E5E5" />
+
+    <Spinner
+        android:id="@+id/category_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <!--  Apply and Close Buttons  -->
+
+    <Button
+        android:id="@+id/apply_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apply" />
+
+    <Button
+        android:id="@+id/close_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Close" />
+</LinearLayout>
