@@ -44,6 +44,7 @@
         <activity android:name=".ExchangeActivity" />
         <activity android:name=".OngoingActivity" />
         <activity android:name=".YourItemsActivity" />
+        <activity android:name=".LoginActivity" />
         <activity android:name="com.example.neighbourhoodbartersystem.ProfileActivity"
             android:exported="true">
             <intent-filter>
