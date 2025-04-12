@@ -16,6 +16,7 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <permission
         android:name="com.example.neighbourhoodbartersystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -32,6 +33,7 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
@@ -58,6 +60,7 @@
         <activity android:name="com.example.neighbourhoodbartersystem.OngoingActivity" />
         <activity android:name="com.example.neighbourhoodbartersystem.YourItemsActivity" />
         <activity android:name="com.example.neighbourhoodbartersystem.LoginActivity" />
+        <activity android:name="com.example.neighbourhoodbartersystem.RegActivity" />
         <activity
             android:name="com.example.neighbourhoodbartersystem.ProfileActivity"
             android:exported="true" >

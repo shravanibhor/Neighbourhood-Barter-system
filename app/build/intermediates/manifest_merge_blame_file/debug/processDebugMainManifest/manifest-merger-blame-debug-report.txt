@@ -1,0 +1,245 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.neighbourhoodbartersystem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-feature
+11-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.camera"
+12-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:6:9-47
+13        android:required="false" />
+13-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:7:9-33
+14
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:9:5-64
+15-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:10:5-77
+16-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:10:22-74
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:11:5-79
+17-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:11:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:12:5-80
+18-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:12:22-78
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:13:5-67
+19-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:13:22-64
+20
+21    <permission
+21-->[androidx.core:core:1.13.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\7be633aac5f71b91553fc2f98b26112e\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+22        android:name="com.example.neighbourhoodbartersystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.13.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\7be633aac5f71b91553fc2f98b26112e\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.13.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\7be633aac5f71b91553fc2f98b26112e\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.example.neighbourhoodbartersystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.13.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\7be633aac5f71b91553fc2f98b26112e\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.13.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\7be633aac5f71b91553fc2f98b26112e\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:16:5-89:15
+28        android:allowBackup="true"
+28-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:18:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.13.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\7be633aac5f71b91553fc2f98b26112e\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+30        android:dataExtractionRules="@xml/data_extraction_rules"
+30-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:19:9-65
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:fullBackupContent="@xml/backup_rules"
+33-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:20:9-54
+34        android:icon="@mipmap/ic_launcher"
+34-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:21:9-43
+35        android:label="@string/app_name"
+35-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:22:9-41
+36        android:networkSecurityConfig="@xml/network_security_config"
+36-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:17:9-69
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:23:9-54
+38        android:supportsRtl="true"
+38-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:24:9-35
+39        android:testOnly="true"
+40        android:theme="@style/Theme.NeighbourhoodBarterSystem" >
+40-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:25:9-63
+41        <activity
+41-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:27:9-36:20
+42            android:name="com.example.neighbourhoodbartersystem.MainActivity"
+42-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:28:13-41
+43            android:exported="true" >
+43-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:29:13-36
+44            <intent-filter>
+44-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:30:13-35:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:31:17-69
+45-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:31:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:34:17-77
+47-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:34:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:37:9-45:20
+51            android:name="com.example.neighbourhoodbartersystem.AddNewProduct"
+51-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:37:19-48
+52            android:exported="true" >
+52-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:38:13-36
+53            <intent-filter>
+53-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:30:13-35:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:31:17-69
+54-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:31:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:34:17-77
+56-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:34:27-74
+57            </intent-filter>
+58        </activity>
+59        <activity android:name="com.example.neighbourhoodbartersystem.ExchangeActivity" />
+59-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:46:9-54
+59-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:46:19-51
+60        <activity android:name="com.example.neighbourhoodbartersystem.OngoingActivity" />
+60-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:47:9-53
+60-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:47:19-50
+61        <activity android:name="com.example.neighbourhoodbartersystem.YourItemsActivity" />
+61-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:48:9-55
+61-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:48:19-52
+62        <activity android:name="com.example.neighbourhoodbartersystem.LoginActivity" />
+62-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:49:9-51
+62-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:49:19-48
+63        <activity android:name="com.example.neighbourhoodbartersystem.RegActivity" />
+63-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:50:9-49
+63-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:50:19-46
+64        <activity
+64-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:52:9-60:20
+65            android:name="com.example.neighbourhoodbartersystem.ProfileActivity"
+65-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:52:19-87
+66            android:exported="true" >
+66-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:53:13-36
+67            <intent-filter>
+67-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:30:13-35:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:31:17-69
+68-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:31:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:34:17-77
+70-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:34:27-74
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:61:9-69:20
+74            android:name="com.example.neighbourhoodbartersystem.SettingsActivity"
+74-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:61:19-88
+75            android:exported="true" >
+75-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:62:13-36
+76            <intent-filter>
+76-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:30:13-35:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:31:17-69
+77-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:31:25-66
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:34:17-77
+79-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:34:27-74
+80            </intent-filter>
+81        </activity>
+82
+83        <meta-data
+83-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:74:9-76:57
+84            android:name="preloaded_fonts"
+84-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:75:13-43
+85            android:resource="@array/preloaded_fonts" />
+85-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:76:13-54
+86
+87        <provider
+87-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:79:9-87:20
+88            android:name="androidx.core.content.FileProvider"
+88-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:80:13-62
+89            android:authorities="com.example.neighbourhoodbartersystem.provider"
+89-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:81:13-81
+90            android:exported="false"
+90-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:83:13-37
+91            android:grantUriPermissions="true" >
+91-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:82:13-47
+92            <meta-data
+92-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:84:13-86:53
+93                android:name="android.support.FILE_PROVIDER_PATHS"
+93-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:85:17-67
+94                android:resource="@xml/file_paths" />
+94-->D:\Studies\MIT-Manipal\Course\Semester-VI\MAD-Lab\MADLAB_Project\app\src\main\AndroidManifest.xml:86:17-51
+95        </provider>
+96        <provider
+96-->[androidx.emoji2:emoji2:1.3.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\b5200465a8bfb0a37cebdd4d5ca723db\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+97            android:name="androidx.startup.InitializationProvider"
+97-->[androidx.emoji2:emoji2:1.3.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\b5200465a8bfb0a37cebdd4d5ca723db\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+98            android:authorities="com.example.neighbourhoodbartersystem.androidx-startup"
+98-->[androidx.emoji2:emoji2:1.3.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\b5200465a8bfb0a37cebdd4d5ca723db\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+99            android:exported="false" >
+99-->[androidx.emoji2:emoji2:1.3.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\b5200465a8bfb0a37cebdd4d5ca723db\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+100            <meta-data
+100-->[androidx.emoji2:emoji2:1.3.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\b5200465a8bfb0a37cebdd4d5ca723db\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+101                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+101-->[androidx.emoji2:emoji2:1.3.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\b5200465a8bfb0a37cebdd4d5ca723db\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+102                android:value="androidx.startup" />
+102-->[androidx.emoji2:emoji2:1.3.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\b5200465a8bfb0a37cebdd4d5ca723db\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+103            <meta-data
+103-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\siddh\.gradle\caches\8.10.2\transforms\f0c9d7c8df7b1553373972cf53ded503\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+104                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+104-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\siddh\.gradle\caches\8.10.2\transforms\f0c9d7c8df7b1553373972cf53ded503\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+105                android:value="androidx.startup" />
+105-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\siddh\.gradle\caches\8.10.2\transforms\f0c9d7c8df7b1553373972cf53ded503\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+106            <meta-data
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+107                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+108                android:value="androidx.startup" />
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+109        </provider>
+110
+111        <receiver
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+112            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+113            android:directBootAware="false"
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+114            android:enabled="true"
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+115            android:exported="true"
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+116            android:permission="android.permission.DUMP" >
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+118                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+119            </intent-filter>
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+121                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+122            </intent-filter>
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+124                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+124-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+127                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+127-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+127-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\siddh\.gradle\caches\8.10.2\transforms\25a9d842e7f3ba3a21f623fa105285f0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+128            </intent-filter>
+129        </receiver>
+130    </application>
+131
+132</manifest>

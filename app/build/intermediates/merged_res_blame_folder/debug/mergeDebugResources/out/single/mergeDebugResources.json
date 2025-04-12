@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\menu_nav_menu.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\menu\\nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\layout_grid_item.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\layout\\grid_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\menu_ex_menu.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\menu\\ex_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\drawable_settings.png.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\drawable\\settings.png"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\drawable_ic_exchange.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\drawable\\ic_exchange.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\layout_filter_popup.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\layout\\filter_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\drawable_earrings.png.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\drawable\\earrings.png"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\drawable_exchange.png.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\drawable\\exchange.png"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\layout_addnewitem.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\layout\\addnewitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\layout_ongoing.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\layout\\ongoing.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\layout_youritems.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\layout\\youritems.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\layout_exchange.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\layout\\exchange.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\drawable\\ic_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\drawable_filter.png.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\drawable\\filter.png"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\font_abril_fatface.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\font\\abril_fatface.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\drawable_kettle.png.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\drawable\\kettle.png"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\layout_list_item.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\drawable_chat.png.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\drawable\\chat.png"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\drawable_ic_chat.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\drawable\\ic_chat.xml"
+    },
+    {
+        "merged": "com.example.neighbourhoodbartersystem.app-debug-31:/layout_activity_register.xml.flat",
+        "source": "com.example.neighbourhoodbartersystem.app-main-33:/layout/activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\layout_createnew.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\layout\\createnew.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\drawable_homeicon.png.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\drawable\\homeicon.png"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\font_abyssinica_sil.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\font\\abyssinica_sil.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-debug-31:\\drawable_profile.png.flat",
+        "source": "C:\\Users\\siddh\\.gradle\\daemon\\8.10.2\\com.example.neighbourhoodbartersystem.app-main-33:\\drawable\\profile.png"
+    }
+]

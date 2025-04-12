@@ -3,8 +3,10 @@ package com.example.neighbourhoodbartersystem;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -30,12 +32,20 @@ public class LoginActivity extends AppCompatActivity {
         username = findViewById(R.id.username);
         password = findViewById(R.id.password);
         loginBtn = findViewById(R.id.loginBtn);
+        TextView tvSignUp = findViewById(R.id.tvSignUp);
+        tvSignUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this, RegActivity.class);
+                startActivity(intent);
+            }
+        });
 
         loginBtn.setOnClickListener(v -> {
             String user = username.getText().toString();
             String pass = password.getText().toString();
 
-            if (user.equals("admin") && pass.equals("1234")) {
+            if (user.equals("admin@example.com") && pass.equals("1234")) {
                 // Save login state
                 SharedPreferences.Editor editor = prefs.edit();
                 editor.putBoolean("isLoggedIn", true);
